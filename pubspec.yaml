@@ -1,0 +1,24 @@
+name: chat_route
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+dependencies:
+  cloud_firestore: ^4.17.2
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.19.4
+  firebase_core: ^2.30.1
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
